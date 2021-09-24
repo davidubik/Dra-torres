@@ -1,0 +1,10 @@
+@mixin nav {
+        background: $mainBleu;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+@mixin flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}

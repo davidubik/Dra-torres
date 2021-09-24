@@ -1,0 +1,68 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#container{
+    border: 2px solid blueviolet;
+    
+    header{
+    border: 2px solid red;
+
+    .logo-txt{
+       @include flexSpaceBetween;
+
+        #logo-dra-torres{
+            width: 80px;
+            height: 80px;
+        }
+
+        .logo-titre{
+            display: flex;
+        }
+
+        .phone{
+            display: flex;
+            margin-top: 3%;
+            margin-right: 5%;
+
+            .bi-telephone-fill{
+                color: $grisTxt;
+            }
+        }
+    }
+
+    nav{
+        @include nav;
+
+        a{
+            text-decoration: none;
+            color: $whitetxt;
+        }
+    }
+}
+    .slider{
+        border: 2px solid chartreuse;
+    }
+
+    .quienSoy{
+        border: 2px solid chocolate;
+    }
+
+    .psicoanalysise-psycoloria{
+        border: 2px solid yellowgreen;
+    }
+
+    .preguntas-frequente{
+        border: 2px solid black;
+    }
+
+    footer{
+        background: $mainBleu;
+    }
+
+
+}

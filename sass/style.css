@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#container {
+  border: 2px solid blueviolet;
+}
+
+#container header {
+  border: 2px solid red;
+}
+
+#container header .logo-txt {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container header .logo-txt #logo-dra-torres {
+  width: 80px;
+  height: 80px;
+}
+
+#container header .logo-txt .logo-titre {
+  display: flex;
+}
+
+#container header .logo-txt .phone {
+  display: flex;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+#container header .logo-txt .phone .bi-telephone-fill {
+  color: #707070;
+}
+
+#container header nav {
+  background: #346c92;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#container header nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#container .slider {
+  border: 2px solid chartreuse;
+}
+
+#container .quienSoy {
+  border: 2px solid chocolate;
+}
+
+#container .psicoanalysise-psycoloria {
+  border: 2px solid yellowgreen;
+}
+
+#container .preguntas-frequente {
+  border: 2px solid black;
+}
+
+#container footer {
+  background: #346c92;
+}

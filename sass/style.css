@@ -51,17 +51,120 @@
 }
 
 #container .quienSoy {
+  margin-top: 5%;
+  background-image: url("../img/img_section/cabinet001.jpg");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
   border: 2px solid chocolate;
+}
+
+#container .quienSoy .blueContainer {
+  background: #346c92;
+  opacity: 50%;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 15%;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#container .quienSoy .blueContainer .blueContainerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+#container .quienSoy .blueContainer .blueContainerImg #picture-dra-torres {
+  opacity: 100% !important;
+}
+
+#container .quienSoy .blueContainer .blueContainerTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 #container .psicoanalysise-psycoloria {
   border: 2px solid yellowgreen;
+  margin-top: 5%;
+  background-image: url("../img/img_section/cabinet003.jpg");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#container .psicoanalysise-psycoloria .blueContainer {
+  background: #346c92;
+  opacity: 50%;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 15%;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#container .psicoanalysise-psycoloria .blueContainer .blueContainerTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 #container .preguntas-frequente {
   border: 2px solid black;
+  background-image: url("../img/img_section/cabinet002.jpg");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#container .preguntas-frequente .blueContainer {
+  background: #346c92;
+  opacity: 50%;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 15%;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#container .preguntas-frequente .blueContainer .blueContainerTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 #container footer {
   background: #346c92;
+}
+
+#container footer .footerLogo {
+  display: flex;
+  justify-content: space-around;
+}
+
+#container footer .footerLogo .logoSocial {
+  width: 50px;
 }

@@ -12,56 +12,113 @@
     header{
     border: 2px solid red;
 
-    .logo-txt{
-       @include flexSpaceBetween;
+        .logo-txt{
+        @include flexSpaceBetween;
 
-        #logo-dra-torres{
-            width: 80px;
-            height: 80px;
-        }
+            #logo-dra-torres{
+                width: 80px;
+                height: 80px;
+            }
 
-        .logo-titre{
-            display: flex;
-        }
+            .logo-titre{
+                display: flex;
+            }
 
-        .phone{
-            display: flex;
-            margin-top: 3%;
-            margin-right: 5%;
+            .phone{
+                display: flex;
+                margin-top: 3%;
+                margin-right: 5%;
 
-            .bi-telephone-fill{
-                color: $grisTxt;
+                .bi-telephone-fill{
+                    color: $grisTxt;
+                }
             }
         }
-    }
 
-    nav{
-        @include nav;
+        nav{
+            @include nav;
 
-        a{
-            text-decoration: none;
-            color: $whitetxt;
+            a{
+                text-decoration: none;
+                color: $whitetxt;
+            }
         }
-    }
 }
     .slider{
         border: 2px solid chartreuse;
     }
 
     .quienSoy{
+        margin-top: 5%;
+        background-image: url('../img/img_section/cabinet001.jpg');
+        @include backgroundImageSection;
         border: 2px solid chocolate;
+        
+        .blueContainer{
+           @include sectionBluePosition;
+
+            .blueContainerImg{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 70%;
+                
+                #picture-dra-torres{
+                    opacity: 100% !important;
+                }
+            }
+         .blueContainerTxt{
+           @include txtBlueSction;
+        }
+    }
+
+       
     }
 
     .psicoanalysise-psycoloria{
         border: 2px solid yellowgreen;
+        margin-top: 5%;
+        background-image: url('../img/img_section/cabinet003.jpg');
+        @include backgroundImageSection;
+
+        .blueContainer{
+            @include sectionBluePosition;
+        
+            
+            .blueContainerTxt{
+           @include txtBlueSction;
+        }
+    }
+
+       
     }
 
     .preguntas-frequente{
         border: 2px solid black;
+        background-image: url('../img/img_section/cabinet002.jpg');
+        @include backgroundImageSection;
+
+        .blueContainer{
+            @include sectionBluePosition;
+        
+            
+            .blueContainerTxt{
+           @include txtBlueSction;
+        }
+    }
     }
 
     footer{
         background: $mainBleu;
+        
+        .footerLogo{
+            display: flex;
+            justify-content: space-around;
+            .logoSocial{
+                width: 50px;
+            }
+
+        }
     }
 
 

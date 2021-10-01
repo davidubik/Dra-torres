@@ -1,19 +1,30 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 
+//FONT
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
 }
 
 #container{
-    border: 2px solid blueviolet;
     
     header{
-    border: 2px solid red;
-
         .logo-txt{
         @include flexSpaceBetween;
+
+            .txt{
+                #titre-dra-gisela-torres{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 100;
+
+                }
+            }
 
             #logo-dra-torres{
                 width: 80px;
@@ -44,15 +55,14 @@
             }
         }
 }
-    .slider{
-        border: 2px solid chartreuse;
-    }
+    // .slider{
+
+    // }
 
     .quienSoy{
         margin-top: 5%;
         background-image: url('../img/img_section/cabinet001.jpg');
         @include backgroundImageSection;
-        border: 2px solid chocolate;
         
         .blueContainer{
            @include sectionBluePosition;
@@ -76,7 +86,6 @@
     }
 
     .psicoanalysise-psycoloria{
-        border: 2px solid yellowgreen;
         margin-top: 5%;
         background-image: url('../img/img_section/cabinet003.jpg');
         @include backgroundImageSection;
@@ -94,9 +103,9 @@
     }
 
     .preguntas-frequente{
-        border: 2px solid black;
         background-image: url('../img/img_section/cabinet002.jpg');
         @include backgroundImageSection;
+        margin-top: 5%;
 
         .blueContainer{
             @include sectionBluePosition;

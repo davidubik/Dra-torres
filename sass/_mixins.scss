@@ -2,11 +2,18 @@
         background: $mainBleu;
         display: flex;
         justify-content: space-evenly;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+        margin-top: 5%;
+        // height: 100px;
 }
+
 
 @mixin flexSpaceBetween {
     display: flex;
     justify-content: space-between;
+    color: $grisTxt;
+    margin-top: 2%;
 }
 
 @mixin backgroundImageSection {

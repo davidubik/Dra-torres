@@ -123,10 +123,13 @@
         .footerLogo{
             display: flex;
             justify-content: space-around;
-            .logoSocial{
-                width: 50px;
+            a{
+                    .fa-facebook,  .fa-linkedin, .fa-twitter, .fa-envelope {
+                        font-size: 50px;
+                        color: $bleuLogo;
+                }
             }
-
+           
         }
     }
 

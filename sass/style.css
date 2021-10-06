@@ -1,19 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
-#container {
-  border: 2px solid blueviolet;
-}
-
-#container header {
-  border: 2px solid red;
-}
-
 #container header .logo-txt {
   display: flex;
   justify-content: space-between;
+  color: #707070;
+  margin-top: 2%;
+}
+
+#container header .logo-txt .txt #titre-dra-gisela-torres {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 #container header .logo-txt #logo-dra-torres {
@@ -39,15 +41,14 @@
   background: #346c92;
   display: flex;
   justify-content: space-evenly;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin-top: 5%;
 }
 
 #container header nav a {
   text-decoration: none;
   color: #ffffff;
-}
-
-#container .slider {
-  border: 2px solid chartreuse;
 }
 
 #container .quienSoy {
@@ -60,7 +61,6 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  border: 2px solid chocolate;
 }
 
 #container .quienSoy .blueContainer {
@@ -94,7 +94,6 @@
 }
 
 #container .psicoanalysise-psycoloria {
-  border: 2px solid yellowgreen;
   margin-top: 5%;
   background-image: url("../img/img_section/cabinet003.jpg");
   width: 100%;
@@ -126,7 +125,6 @@
 }
 
 #container .preguntas-frequente {
-  border: 2px solid black;
   background-image: url("../img/img_section/cabinet002.jpg");
   width: 100%;
   height: 800px;
@@ -135,6 +133,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 #container .preguntas-frequente .blueContainer {
@@ -165,6 +164,7 @@
   justify-content: space-around;
 }
 
-#container footer .footerLogo .logoSocial {
-  width: 50px;
+#container footer .footerLogo a .fa-facebook, #container footer .footerLogo a .fa-linkedin, #container footer .footerLogo a .fa-twitter, #container footer .footerLogo a .fa-envelope {
+  font-size: 50px;
+  color: #AEC4D3;
 }

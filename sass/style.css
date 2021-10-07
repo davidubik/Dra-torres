@@ -59,8 +59,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
 }
 
 #container .quienSoy .blueContainer {
@@ -72,25 +70,7 @@
   width: 70%;
   height: 50%;
   display: flex;
-  justify-content: space-evenly;
-}
-
-#container .quienSoy .blueContainer .blueContainerImg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 70%;
-}
-
-#container .quienSoy .blueContainer .blueContainerImg #picture-dra-torres {
-  opacity: 100% !important;
-}
-
-#container .quienSoy .blueContainer .blueContainerTxt {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-around;
 }
 
 #container .psicoanalysise-psycoloria {
@@ -102,7 +82,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #container .psicoanalysise-psycoloria .blueContainer {
@@ -114,7 +95,7 @@
   width: 70%;
   height: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #container .psicoanalysise-psycoloria .blueContainer .blueContainerTxt {
@@ -132,7 +113,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 5%;
 }
 
@@ -145,7 +127,7 @@
   width: 70%;
   height: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #container .preguntas-frequente .blueContainer .blueContainerTxt {

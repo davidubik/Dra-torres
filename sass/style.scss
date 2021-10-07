@@ -62,27 +62,18 @@
     .quienSoy{
         margin-top: 5%;
         background-image: url('../img/img_section/cabinet001.jpg');
-        @include backgroundImageSection;
+        width: 100%;
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         
         .blueContainer{
-           @include sectionBluePosition;
+            @include sectionBluePosition;
 
-            .blueContainerImg{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                width: 70%;
-                
-                #picture-dra-torres{
-                    opacity: 100% !important;
-                }
-            }
-         .blueContainerTxt{
-           @include txtBlueSction;
+            
         }
-    }
-
-       
+        
     }
 
     .psicoanalysise-psycoloria{
@@ -95,7 +86,7 @@
         
             
             .blueContainerTxt{
-           @include txtBlueSction;
+           @include txtBlueSection;
         }
     }
 
@@ -112,7 +103,7 @@
         
             
             .blueContainerTxt{
-           @include txtBlueSction;
+           @include txtBlueSection;
         }
     }
     }
